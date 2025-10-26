@@ -2,7 +2,63 @@
 <html>
 <head>
     <title>Dice Roller</title>
-    
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background: linear-gradient(135deg, #c9ffbf, #ffafbd);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            width: 400px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #501717;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border: 3px solid #502c2c;
+            border-radius: 15px;
+            background-color: #f7f7f7;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: rotate(10deg) scale(1.05);
+        }
+        button {
+            padding: 12px 25px;
+            font-size: 18px;
+            font-weight: bold;
+            background: #4a0303;
+            background: linear-gradient(to right, #ba0e0e, #fb5162);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            transform: scale(1.1);
+            background: linear-gradient(to right, #fb5162, #cb1111);
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(124, 2, 2);
+        }
+    </style>
 </head>
 <body>
 
